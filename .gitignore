@@ -1,0 +1,30 @@
+# Ignore special directories from the lecture setup
+.20250915/
+
+# Ignore LaTeX source files, keep PDFs
+*.tex
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Trained models and derived data
+/results/
+/corpus/
+
+# Log files
+/log/
+
+# IDE configuration files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
