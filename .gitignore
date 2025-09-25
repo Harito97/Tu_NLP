@@ -1,6 +1,9 @@
 # Ignore special directories from the lecture setup
 .20250915/
 
+# Temp directories
+report/
+
 # Ignore LaTeX source files, keep PDFs
 *.tex
 
@@ -28,3 +31,8 @@ ENV/
 
 # OS-specific files
 .DS_Store
+
+# Scala/sbt build artifacts
+/spark_labs/target/
+/spark_labs/project/target/
+/spark_labs/.bloop/
